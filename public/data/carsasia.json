@@ -1,0 +1,612 @@
+[
+  {
+    "marca": "Toyota",
+    "modelo": "Corolla",
+    "anio": 2025,
+    "precio": 420000,
+    "color": "Blanco",
+    "origen": "japones",
+    "disponible_mx": true,
+    "img": ""
+  },
+  {
+    "marca": "Toyota",
+    "modelo": "RAV4",
+    "anio": 2025,
+    "precio": 630000,
+    "color": "Gris",
+    "origen": "japones",
+    "disponible_mx": true,
+    "img": ""
+  },
+  {
+    "marca": "Toyota",
+    "modelo": "Hilux",
+    "anio": 2024,
+    "precio": 680000,
+    "color": "Rojo",
+    "origen": "japones",
+    "disponible_mx": true,
+    "img": ""
+  },
+  {
+    "marca": "Toyota",
+    "modelo": "Yaris Sedán",
+    "anio": 2024,
+    "precio": 330000,
+    "color": "Azul",
+    "origen": "japones",
+    "disponible_mx": true,
+    "img": ""
+  },
+  {
+    "marca": "Toyota",
+    "modelo": "Prius",
+    "anio": 2024,
+    "precio": 520000,
+    "color": "Negro",
+    "origen": "japones",
+    "disponible_mx": true,
+    "img": ""
+  },
+  {
+    "marca": "Honda",
+    "modelo": "Civic",
+    "anio": 2025,
+    "precio": 520000,
+    "color": "Gris",
+    "origen": "japones",
+    "disponible_mx": true,
+    "img": ""
+  },
+  {
+    "marca": "Honda",
+    "modelo": "CR-V",
+    "anio": 2025,
+    "precio": 680000,
+    "color": "Blanco",
+    "origen": "japones",
+    "disponible_mx": true,
+    "img": ""
+  },
+  {
+    "marca": "Honda",
+    "modelo": "HR-V",
+    "anio": 2024,
+    "precio": 510000,
+    "color": "Rojo",
+    "origen": "japones",
+    "disponible_mx": true,
+    "img": ""
+  },
+  {
+    "marca": "Honda",
+    "modelo": "Accord",
+    "anio": 2024,
+    "precio": 620000,
+    "color": "Negro",
+    "origen": "japones",
+    "disponible_mx": true,
+    "img": ""
+  },
+  {
+    "marca": "Honda",
+    "modelo": "City",
+    "anio": 2023,
+    "precio": 360000,
+    "color": "Azul",
+    "origen": "japones",
+    "disponible_mx": true,
+    "img": ""
+  },
+  {
+    "marca": "Nissan",
+    "modelo": "Versa",
+    "anio": 2025,
+    "precio": 320000,
+    "color": "Blanco",
+    "origen": "japones",
+    "disponible_mx": true,
+    "img": ""
+  },
+  {
+    "marca": "Nissan",
+    "modelo": "Sentra",
+    "anio": 2024,
+    "precio": 420000,
+    "color": "Gris",
+    "origen": "japones",
+    "disponible_mx": true,
+    "img": ""
+  },
+  {
+    "marca": "Nissan",
+    "modelo": "Kicks",
+    "anio": 2024,
+    "precio": 380000,
+    "color": "Rojo",
+    "origen": "japones",
+    "disponible_mx": true,
+    "img": ""
+  },
+  {
+    "marca": "Nissan",
+    "modelo": "X-Trail",
+    "anio": 2024,
+    "precio": 620000,
+    "color": "Azul",
+    "origen": "japones",
+    "disponible_mx": true,
+    "img": ""
+  },
+  {
+    "marca": "Nissan",
+    "modelo": "Frontier",
+    "anio": 2023,
+    "precio": 560000,
+    "color": "Negro",
+    "origen": "japones",
+    "disponible_mx": true,
+    "img": ""
+  },
+  {
+    "marca": "Mazda",
+    "modelo": "Mazda 3",
+    "anio": 2025,
+    "precio": 430000,
+    "color": "Rojo",
+    "origen": "japones",
+    "disponible_mx": true,
+    "img": ""
+  },
+  {
+    "marca": "Mazda",
+    "modelo": "CX-5",
+    "anio": 2025,
+    "precio": 590000,
+    "color": "Gris",
+    "origen": "japones",
+    "disponible_mx": true,
+    "img": ""
+  },
+  {
+    "marca": "Mazda",
+    "modelo": "CX-30",
+    "anio": 2024,
+    "precio": 480000,
+    "color": "Blanco",
+    "origen": "japones",
+    "disponible_mx": true,
+    "img": ""
+  },
+  {
+    "marca": "Mazda",
+    "modelo": "Mazda 2",
+    "anio": 2024,
+    "precio": 320000,
+    "color": "Azul",
+    "origen": "japones",
+    "disponible_mx": true,
+    "img": ""
+  },
+  {
+    "marca": "Mazda",
+    "modelo": "MX-5",
+    "anio": 2024,
+    "precio": 690000,
+    "color": "Negro",
+    "origen": "japones",
+    "disponible_mx": true,
+    "img": ""
+  },
+  {
+    "marca": "Subaru",
+    "modelo": "Forester",
+    "anio": 2024,
+    "precio": 620000,
+    "color": "Verde",
+    "origen": "japones",
+    "disponible_mx": true,
+    "img": ""
+  },
+  {
+    "marca": "Subaru",
+    "modelo": "Outback",
+    "anio": 2024,
+    "precio": 720000,
+    "color": "Gris",
+    "origen": "japones",
+    "disponible_mx": true,
+    "img": ""
+  },
+  {
+    "marca": "Subaru",
+    "modelo": "WRX",
+    "anio": 2024,
+    "precio": 730000,
+    "color": "Azul",
+    "origen": "japones",
+    "disponible_mx": true,
+    "img": ""
+  },
+  {
+    "marca": "Mitsubishi",
+    "modelo": "L200",
+    "anio": 2024,
+    "precio": 520000,
+    "color": "Blanco",
+    "origen": "japones",
+    "disponible_mx": true,
+    "img": ""
+  },
+  {
+    "marca": "Mitsubishi",
+    "modelo": "Outlander",
+    "anio": 2024,
+    "precio": 590000,
+    "color": "Rojo",
+    "origen": "japones",
+    "disponible_mx": true,
+    "img": ""
+  },
+  {
+    "marca": "Mitsubishi",
+    "modelo": "Mirage G4",
+    "anio": 2023,
+    "precio": 290000,
+    "color": "Gris",
+    "origen": "japones",
+    "disponible_mx": true,
+    "img": ""
+  },
+  {
+    "marca": "Lexus",
+    "modelo": "NX 350h",
+    "anio": 2024,
+    "precio": 990000,
+    "color": "Negro",
+    "origen": "japones",
+    "disponible_mx": true,
+    "img": ""
+  },
+  {
+    "marca": "Lexus",
+    "modelo": "UX 250h",
+    "anio": 2024,
+    "precio": 800000,
+    "color": "Blanco",
+    "origen": "japones",
+    "disponible_mx": true,
+    "img": ""
+  },
+  {
+    "marca": "Lexus",
+    "modelo": "ES 300h",
+    "anio": 2024,
+    "precio": 980000,
+    "color": "Gris",
+    "origen": "japones",
+    "disponible_mx": true,
+    "img": ""
+  },
+  {
+    "marca": "Suzuki",
+    "modelo": "Swift",
+    "anio": 2025,
+    "precio": 300000,
+    "color": "Rojo",
+    "origen": "japones",
+    "disponible_mx": true,
+    "img": ""
+  },
+  {
+    "marca": "Suzuki",
+    "modelo": "Vitara",
+    "anio": 2024,
+    "precio": 410000,
+    "color": "Azul",
+    "origen": "japones",
+    "disponible_mx": true,
+    "img": ""
+  },
+  {
+    "marca": "Suzuki",
+    "modelo": "Ertiga",
+    "anio": 2024,
+    "precio": 390000,
+    "color": "Gris",
+    "origen": "japones",
+    "disponible_mx": true,
+    "img": ""
+  },
+  {
+    "marca": "Hyundai",
+    "modelo": "Creta",
+    "anio": 2025,
+    "precio": 410000,
+    "color": "Gris",
+    "origen": "coreano_del_sur",
+    "disponible_mx": true,
+    "img": ""
+  },
+  {
+    "marca": "Hyundai",
+    "modelo": "Tucson",
+    "anio": 2025,
+    "precio": 560000,
+    "color": "Blanco",
+    "origen": "coreano_del_sur",
+    "disponible_mx": true,
+    "img": ""
+  },
+  {
+    "marca": "Hyundai",
+    "modelo": "Elantra",
+    "anio": 2024,
+    "precio": 420000,
+    "color": "Azul",
+    "origen": "coreano_del_sur",
+    "disponible_mx": true,
+    "img": ""
+  },
+  {
+    "marca": "Hyundai",
+    "modelo": "Santa Fe",
+    "anio": 2024,
+    "precio": 720000,
+    "color": "Negro",
+    "origen": "coreano_del_sur",
+    "disponible_mx": true,
+    "img": ""
+  },
+  {
+    "marca": "Hyundai",
+    "modelo": "Grand i10 Sedán",
+    "anio": 2024,
+    "precio": 280000,
+    "color": "Rojo",
+    "origen": "coreano_del_sur",
+    "disponible_mx": true,
+    "img": ""
+  },
+  {
+    "marca": "Kia",
+    "modelo": "Rio",
+    "anio": 2024,
+    "precio": 310000,
+    "color": "Blanco",
+    "origen": "coreano_del_sur",
+    "disponible_mx": true,
+    "img": ""
+  },
+  {
+    "marca": "Kia",
+    "modelo": "Forte",
+    "anio": 2025,
+    "precio": 395000,
+    "color": "Gris",
+    "origen": "coreano_del_sur",
+    "disponible_mx": true,
+    "img": ""
+  },
+  {
+    "marca": "Kia",
+    "modelo": "Seltos",
+    "anio": 2025,
+    "precio": 440000,
+    "color": "Azul",
+    "origen": "coreano_del_sur",
+    "disponible_mx": true,
+    "img": ""
+  },
+  {
+    "marca": "Kia",
+    "modelo": "Sportage",
+    "anio": 2025,
+    "precio": 560000,
+    "color": "Negro",
+    "origen": "coreano_del_sur",
+    "disponible_mx": true,
+    "img": ""
+  },
+  {
+    "marca": "Kia",
+    "modelo": "Sorento",
+    "anio": 2024,
+    "precio": 740000,
+    "color": "Rojo",
+    "origen": "coreano_del_sur",
+    "disponible_mx": true,
+    "img": ""
+  },
+  {
+    "marca": "Genesis",
+    "modelo": "G70",
+    "anio": 2024,
+    "precio": 980000,
+    "color": "Negro",
+    "origen": "coreano_del_sur",
+    "disponible_mx": "importacion_limitada",
+    "img": ""
+  },
+  {
+    "marca": "Genesis",
+    "modelo": "GV70",
+    "anio": 2024,
+    "precio": 1150000,
+    "color": "Gris",
+    "origen": "coreano_del_sur",
+    "disponible_mx": "importacion_limitada",
+    "img": ""
+  },
+  {
+    "marca": "MG (SAIC)",
+    "modelo": "MG5",
+    "anio": 2025,
+    "precio": 330000,
+    "color": "Blanco",
+    "origen": "chino",
+    "disponible_mx": true,
+    "img": ""
+  },
+  {
+    "marca": "MG (SAIC)",
+    "modelo": "ZS",
+    "anio": 2025,
+    "precio": 380000,
+    "color": "Rojo",
+    "origen": "chino",
+    "disponible_mx": true,
+    "img": ""
+  },
+  {
+    "marca": "MG (SAIC)",
+    "modelo": "HS",
+    "anio": 2024,
+    "precio": 520000,
+    "color": "Gris",
+    "origen": "chino",
+    "disponible_mx": true,
+    "img": ""
+  },
+  {
+    "marca": "JAC",
+    "modelo": "Sei2 Pro",
+    "anio": 2024,
+    "precio": 330000,
+    "color": "Azul",
+    "origen": "chino",
+    "disponible_mx": true,
+    "img": ""
+  },
+  {
+    "marca": "JAC",
+    "modelo": "Sei4 Pro",
+    "anio": 2024,
+    "precio": 410000,
+    "color": "Gris",
+    "origen": "chino",
+    "disponible_mx": true,
+    "img": ""
+  },
+  {
+    "marca": "JAC",
+    "modelo": "J7",
+    "anio": 2024,
+    "precio": 430000,
+    "color": "Negro",
+    "origen": "chino",
+    "disponible_mx": true,
+    "img": ""
+  },
+  {
+    "marca": "JAC",
+    "modelo": "E10X (EV)",
+    "anio": 2024,
+    "precio": 460000,
+    "color": "Blanco",
+    "origen": "chino",
+    "disponible_mx": true,
+    "img": ""
+  },
+  {
+    "marca": "BYD",
+    "modelo": "Dolphin",
+    "anio": 2025,
+    "precio": 430000,
+    "color": "Azul",
+    "origen": "chino",
+    "disponible_mx": true,
+    "img": ""
+  },
+  {
+    "marca": "BYD",
+    "modelo": "Atto 3 (Yuan Plus)",
+    "anio": 2025,
+    "precio": 570000,
+    "color": "Verde",
+    "origen": "chino",
+    "disponible_mx": true,
+    "img": ""
+  },
+  {
+    "marca": "BYD",
+    "modelo": "Seal",
+    "anio": 2025,
+    "precio": 780000,
+    "color": "Negro",
+    "origen": "chino",
+    "disponible_mx": true,
+    "img": ""
+  },
+  {
+    "marca": "Chirey (Chery)",
+    "modelo": "Tiggo 4 Pro",
+    "anio": 2025,
+    "precio": 380000,
+    "color": "Rojo",
+    "origen": "chino",
+    "disponible_mx": true,
+    "img": ""
+  },
+  {
+    "marca": "Chirey (Chery)",
+    "modelo": "Tiggo 7 Pro",
+    "anio": 2025,
+    "precio": 520000,
+    "color": "Gris",
+    "origen": "chino",
+    "disponible_mx": true,
+    "img": ""
+  },
+  {
+    "marca": "Chirey (Chery)",
+    "modelo": "Omoda 5",
+    "anio": 2025,
+    "precio": 480000,
+    "color": "Blanco",
+    "origen": "chino",
+    "disponible_mx": true,
+    "img": ""
+  },
+  {
+    "marca": "GWM Haval",
+    "modelo": "H6",
+    "anio": 2024,
+    "precio": 520000,
+    "color": "Azul",
+    "origen": "chino",
+    "disponible_mx": "llegando",
+    "img": ""
+  },
+  {
+    "marca": "GWM",
+    "modelo": "Poer (pick-up)",
+    "anio": 2024,
+    "precio": 580000,
+    "color": "Blanco",
+    "origen": "chino",
+    "disponible_mx": "llegando",
+    "img": ""
+  },
+  {
+    "marca": "BAIC",
+    "modelo": "X35",
+    "anio": 2023,
+    "precio": 360000,
+    "color": "Gris",
+    "origen": "chino",
+    "disponible_mx": true,
+    "img": ""
+  },
+  {
+    "marca": "BAIC",
+    "modelo": "D20",
+    "anio": 2022,
+    "precio": 280000,
+    "color": "Rojo",
+    "origen": "chino",
+    "disponible_mx": true,
+    "img": ""
+  }
+]

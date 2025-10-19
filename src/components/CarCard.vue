@@ -68,30 +68,31 @@ const props = defineProps({
 
 const emit = defineEmits(['view-details', 'contact-seller'])
 
-// Imágenes de placeholder por marca
-const brandImages = {
-  'Toyota': 'https://images.unsplash.com/photo-1580273916550-e323be2ae537?w=400&h=250&fit=crop',
-  'Ford': 'https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=400&h=250&fit=crop',
-  'Honda': 'https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=400&h=250&fit=crop',
-  'Nissan': 'https://images.unsplash.com/photo-1570733577525-d0f20da76c1f?w=400&h=250&fit=crop',
-  'Chevrolet': 'https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?w=400&h=250&fit=crop',
-  'Volkswagen': 'https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?w=400&h=250&fit=crop',
-  'BMW': 'https://images.unsplash.com/photo-1555215695-3004980ad54e?w=400&h=250&fit=crop',
-  'Mercedes-Benz': 'https://images.unsplash.com/photo-1563720223485-41b7e8b26c4f?w=400&h=250&fit=crop',
-  'Audi': 'https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=400&h=250&fit=crop'
-}
-
 const imageError = ref(false)
 
+// FUNCIÓN MODIFICADA: Ahora busca imágenes en tu carpeta local
 const getCarImage = (car) => {
+  // 1. Primero intenta usar la imagen del JSON si existe
   if (car.img && !imageError.value) {
     return car.img
   }
-  return brandImages[car.marca] || 'https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=400&h=250&fit=crop'
+  
+  // 2. Si no hay imagen en el JSON, busca en tu carpeta de fotos
+  // Formato sugerido: /src/assets/cars/[marca]-[modelo]-[color].jpg
+  const nombreArchivo = `${car.marca}-${car.modelo}-${car.color}`
+    .toLowerCase()
+    .replace(/\s+/g, '-')
+    .replace(/[^\w-]/g, '');
+  
+  // Ruta donde pondrás tus fotos
+  const rutaImagen = `/src/assets/cars/${nombreArchivo}.jpg`;
+  
+  return rutaImagen;
 }
 
 const handleImageError = () => {
   imageError.value = true
+  console.log(`❌ No se encontró imagen para: ${props.car.marca} ${props.car.modelo}`)
 }
 
 const formatPrice = (price) => {
@@ -145,6 +146,7 @@ const contactSeller = () => {
   position: relative;
   height: 200px;
   overflow: hidden;
+  background: #f8f9fa; /* Fondo gris claro si no hay imagen */
 }
 
 .car-image {
