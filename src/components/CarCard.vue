@@ -1,3 +1,5 @@
+[file name]: CarCard.vue
+[file content begin]
 <template>
   <article class="car-card">
     <div class="car-image-container">
@@ -28,7 +30,7 @@
         </div>
         <div class="detail-item">
           <span class="detail-label">Origen:</span>
-          <span class="detail-value">{{ car.origen || 'No especificado' }}</span>
+          <span class="detail-value">{{ getOrigenLabel(car.origen) }}</span>
         </div>
       </div>
 
@@ -37,7 +39,7 @@
           {{ car.color || 'N/A' }}
         </span>
         <span class="feature-tag feature-origin">
-          {{ car.origen || 'N/A' }}
+          {{ getOrigenLabel(car.origen) }}
         </span>
       </div>
 
@@ -70,29 +72,87 @@ const emit = defineEmits(['view-details', 'contact-seller'])
 
 const imageError = ref(false)
 
-// FUNCIÓN MODIFICADA: Ahora busca imágenes en tu carpeta local
+// FUNCIÓN MEJORADA para manejar imágenes
 const getCarImage = (car) => {
-  // 1. Primero intenta usar la imagen del JSON si existe
-  if (car.img && !imageError.value) {
+  console.log('🔍 Buscando imagen para:', car.marca, car.modelo)
+  console.log('📁 Propiedad img:', car.img)
+  
+  // 1. Si hay imagen en el JSON, úsala (rutas absolutas desde public/)
+  if (car.img && car.img.trim() !== '') {
+    console.log('✅ Usando imagen del JSON:', car.img)
+    
+    // Si la ruta no empieza con /, agregarla para que sea absoluta
+    if (!car.img.startsWith('/')) {
+      return '/' + car.img
+    }
     return car.img
   }
   
-  // 2. Si no hay imagen en el JSON, busca en tu carpeta de fotos
-  // Formato sugerido: /src/assets/cars/[marca]-[modelo]-[color].jpg
-  const nombreArchivo = `${car.marca}-${car.modelo}-${car.color}`
-    .toLowerCase()
-    .replace(/\s+/g, '-')
-    .replace(/[^\w-]/g, '');
+  // 2. Si no hay imagen, intentar generar ruta automática
+  try {
+    const nombreArchivo = `${car.marca}-${car.modelo}-${car.color || car.anio}`
+      .toLowerCase()
+      .replace(/\s+/g, '-')
+      .replace(/[^\w-]/g, '')
+      .replace(/--+/g, '-');
+    
+    // Rutas basadas en el origen del auto
+    let rutaBase = '/fotoautosamericanos/'
+    if (car.origen === 'japones' || car.origen === 'coreano_del_sur' || car.origen === 'chino') {
+      rutaBase = '/fotoautosasiaticos/'
+    }
+    
+    const rutaImagen = `${rutaBase}${nombreArchivo}.webp`
+    console.log('🔄 Intentando ruta automática:', rutaImagen)
+    return rutaImagen
+    
+  } catch (error) {
+    console.error('❌ Error generando ruta automática:', error)
+  }
   
-  // Ruta donde pondrás tus fotos
-  const rutaImagen = `/src/assets/cars/${nombreArchivo}.jpg`;
-  
-  return rutaImagen;
+  // 3. Fallback a placeholder
+  const placeholder = getBrandPlaceholder(car.marca)
+  console.log('🖼️ Usando placeholder:', placeholder)
+  return placeholder
 }
 
-const handleImageError = () => {
+const getBrandPlaceholder = (marca) => {
+  const brandPlaceholders = {
+    'Ford': 'https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=400&h=250&fit=crop',
+    'Toyota': 'https://images.unsplash.com/photo-1580273916550-e323be2ae537?w=400&h=250&fit=crop',
+    'Honda': 'https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=400&h=250&fit=crop',
+    'Chevrolet': 'https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?w=400&h=250&fit=crop',
+    'Nissan': 'https://images.unsplash.com/photo-1570733577525-d0f20da76c1f?w=400&h=250&fit=crop',
+    'Tesla': 'https://images.unsplash.com/photo-1560958089-b8a1929cea89?w=400&h=250&fit=crop',
+    'Hyundai': 'https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?w=400&h=250&fit=crop',
+    'Kia': 'https://images.unsplash.com/photo-1555215695-3004980ad54e?w=400&h=250&fit=crop',
+    'BMW': 'https://images.unsplash.com/photo-1555215695-3004980ad54e?w=400&h=250&fit=crop',
+    'Mercedes-Benz': 'https://images.unsplash.com/photo-1563720223485-41b7e8b26c4f?w=400&h=250&fit=crop',
+    'Audi': 'https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=400&h=250&fit=crop'
+  }
+  
+  return brandPlaceholders[marca] || 'https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=400&h=250&fit=crop'
+}
+
+const handleImageError = (event) => {
+  console.error('❌ Error cargando imagen:', event.target.src)
   imageError.value = true
-  console.log(`❌ No se encontró imagen para: ${props.car.marca} ${props.car.modelo}`)
+  
+  // Forzar recarga con placeholder después del error
+  setTimeout(() => {
+    const placeholder = getBrandPlaceholder(props.car.marca)
+    event.target.src = placeholder
+  }, 100)
+}
+
+const getOrigenLabel = (origen) => {
+  const origenLabels = {
+    'americano': 'Americano',
+    'japones': 'Japonés',
+    'coreano_del_sur': 'Coreano',
+    'chino': 'Chino'
+  }
+  return origenLabels[origen] || origen || 'No especificado'
 }
 
 const formatPrice = (price) => {
@@ -113,7 +173,9 @@ const getColorTag = (color) => {
     'gris': '#718096',
     'plateado': '#CBD5E0',
     'verde': '#38A169',
-    'amarillo': '#D69E2E'
+    'amarillo': '#D69E2E',
+    'blanco': '#F8FAFC',
+    'azul': '#1E40AF'
   }
   return colorMap[color?.toLowerCase()] || '#6c757d'
 }
@@ -135,6 +197,9 @@ const contactSeller = () => {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
   border: 1px solid #e9ecef;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .car-card:hover {
@@ -146,7 +211,10 @@ const contactSeller = () => {
   position: relative;
   height: 200px;
   overflow: hidden;
-  background: #f8f9fa; /* Fondo gris claro si no hay imagen */
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .car-image {
@@ -171,6 +239,7 @@ const contactSeller = () => {
   font-size: 0.8rem;
   font-weight: 600;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 2;
 }
 
 .image-overlay {
@@ -185,6 +254,7 @@ const contactSeller = () => {
   justify-content: center;
   opacity: 0;
   transition: opacity 0.3s ease;
+  z-index: 1;
 }
 
 .car-card:hover .image-overlay {
@@ -200,15 +270,20 @@ const contactSeller = () => {
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s ease;
+  font-size: 0.9rem;
 }
 
 .quick-view-btn:hover {
   background: var(--primary);
   color: var(--white);
+  transform: translateY(-2px);
 }
 
 .car-content {
   padding: 1.5rem;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .car-header {
@@ -216,6 +291,7 @@ const contactSeller = () => {
   justify-content: space-between;
   align-items: flex-start;
   margin-bottom: 1rem;
+  gap: 0.5rem;
 }
 
 .car-title {
@@ -224,6 +300,7 @@ const contactSeller = () => {
   color: var(--dark);
   margin: 0;
   line-height: 1.3;
+  flex: 1;
 }
 
 .car-price {
@@ -231,6 +308,7 @@ const contactSeller = () => {
   font-weight: 700;
   color: var(--primary);
   text-align: right;
+  white-space: nowrap;
 }
 
 .car-details {
@@ -252,6 +330,7 @@ const contactSeller = () => {
 .detail-value {
   color: var(--dark);
   font-weight: 600;
+  text-transform: capitalize;
 }
 
 .car-features {
@@ -278,6 +357,7 @@ const contactSeller = () => {
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
+  margin-top: auto;
 }
 
 .btn-full {
@@ -298,10 +378,32 @@ const contactSeller = () => {
   
   .car-price {
     text-align: left;
+    align-self: flex-start;
   }
   
   .car-actions {
     flex-direction: column;
   }
+  
+  .car-image-container {
+    height: 180px;
+  }
+}
+
+/* Loading state para imágenes */
+.car-image {
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: loading 1.5s infinite;
+}
+
+@keyframes loading {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
 }
 </style>
+[file content end]

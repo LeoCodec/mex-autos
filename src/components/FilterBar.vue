@@ -11,7 +11,14 @@ const modelos = computed(() => (marca.value ? props.cars.filter(c=>c.marca===mar
   .reduce((s,c)=>s.add(c.modelo), new Set()))
 const colores = computed(() => [...new Set(props.cars.map(c=>c.color))].sort())
 const anios   = computed(() => [...new Set(props.cars.map(c=>c.anio))].sort((a,b)=>b-a))
-const origenes = computed(() => [...new Set(props.cars.map(c=>c.origen))].sort())
+
+// CORREGIDO: Forzar los 4 orígenes siempre
+const origenes = computed(() => [
+  'americano',
+  'japones', 
+  'coreano_del_sur',
+  'chino'
+])
 
 watch([marca,modelo,anio,color,precioMin,precioMax,origen], () => {
   emit('update:filters', {
