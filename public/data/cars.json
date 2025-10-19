@@ -1,0 +1,1127 @@
+[
+  {
+    "marca": "Ford",
+    "modelo": "Mustang",
+    "anio": 2024,
+    "precio": 1109000,
+    "color": "Blanco",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Ford",
+    "modelo": "F-150",
+    "anio": 2023,
+    "precio": 1065000,
+    "color": "Negro",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Ford",
+    "modelo": "Explorer",
+    "anio": 2020,
+    "precio": 817000,
+    "color": "Gris",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Ford",
+    "modelo": "Bronco",
+    "anio": 2020,
+    "precio": 1416000,
+    "color": "Azul",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Ford",
+    "modelo": "Escape",
+    "anio": 2020,
+    "precio": 460000,
+    "color": "Rojo",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Chevrolet",
+    "modelo": "Camaro",
+    "anio": 2025,
+    "precio": 1117000,
+    "color": "Blanco",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Chevrolet",
+    "modelo": "Corvette",
+    "anio": 2021,
+    "precio": 1387000,
+    "color": "Negro",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Chevrolet",
+    "modelo": "Malibu",
+    "anio": 2025,
+    "precio": 1285000,
+    "color": "Gris",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Chevrolet",
+    "modelo": "Tahoe",
+    "anio": 2025,
+    "precio": 736000,
+    "color": "Azul",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Chevrolet",
+    "modelo": "Silverado",
+    "anio": 2020,
+    "precio": 1308000,
+    "color": "Rojo",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "GMC",
+    "modelo": "Sierra",
+    "anio": 2021,
+    "precio": 1339000,
+    "color": "Blanco",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "GMC",
+    "modelo": "Yukon",
+    "anio": 2022,
+    "precio": 939000,
+    "color": "Negro",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "GMC",
+    "modelo": "Terrain",
+    "anio": 2022,
+    "precio": 1117000,
+    "color": "Gris",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "GMC",
+    "modelo": "Acadia",
+    "anio": 2022,
+    "precio": 791000,
+    "color": "Azul",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "GMC",
+    "modelo": "Canyon",
+    "anio": 2020,
+    "precio": 1157000,
+    "color": "Rojo",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Cadillac",
+    "modelo": "Escalade",
+    "anio": 2022,
+    "precio": 2965000,
+    "color": "Blanco",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Cadillac",
+    "modelo": "LYRIQ",
+    "anio": 2021,
+    "precio": 2244000,
+    "color": "Negro",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Cadillac",
+    "modelo": "XT5",
+    "anio": 2022,
+    "precio": 1707000,
+    "color": "Gris",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Cadillac",
+    "modelo": "CT5",
+    "anio": 2022,
+    "precio": 2447000,
+    "color": "Azul",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Cadillac",
+    "modelo": "Celestiq",
+    "anio": 2023,
+    "precio": 3229000,
+    "color": "Rojo",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Buick",
+    "modelo": "Enclave",
+    "anio": 2024,
+    "precio": 1154000,
+    "color": "Blanco",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Buick",
+    "modelo": "Encore",
+    "anio": 2023,
+    "precio": 1071000,
+    "color": "Negro",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Buick",
+    "modelo": "Envision",
+    "anio": 2020,
+    "precio": 1007000,
+    "color": "Gris",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Buick",
+    "modelo": "Envista",
+    "anio": 2024,
+    "precio": 1321000,
+    "color": "Azul",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Buick",
+    "modelo": "Regal",
+    "anio": 2023,
+    "precio": 901000,
+    "color": "Rojo",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Dodge",
+    "modelo": "Charger",
+    "anio": 2025,
+    "precio": 1375000,
+    "color": "Blanco",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Dodge",
+    "modelo": "Challenger",
+    "anio": 2020,
+    "precio": 1200000,
+    "color": "Negro",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Dodge",
+    "modelo": "Durango",
+    "anio": 2025,
+    "precio": 1447000,
+    "color": "Gris",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Dodge",
+    "modelo": "Hornet",
+    "anio": 2023,
+    "precio": 1396000,
+    "color": "Azul",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Dodge",
+    "modelo": "Journey",
+    "anio": 2020,
+    "precio": 820000,
+    "color": "Rojo",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Ram",
+    "modelo": "1500",
+    "anio": 2024,
+    "precio": 1293000,
+    "color": "Blanco",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Ram",
+    "modelo": "2500",
+    "anio": 2025,
+    "precio": 534000,
+    "color": "Negro",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Ram",
+    "modelo": "3500",
+    "anio": 2022,
+    "precio": 996000,
+    "color": "Gris",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Ram",
+    "modelo": "ProMaster",
+    "anio": 2023,
+    "precio": 724000,
+    "color": "Azul",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Ram",
+    "modelo": "Rebel",
+    "anio": 2022,
+    "precio": 972000,
+    "color": "Rojo",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Chrysler",
+    "modelo": "Pacifica",
+    "anio": 2022,
+    "precio": 1386000,
+    "color": "Blanco",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Chrysler",
+    "modelo": "300",
+    "anio": 2025,
+    "precio": 1058000,
+    "color": "Negro",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Chrysler",
+    "modelo": "Airflow",
+    "anio": 2021,
+    "precio": 753000,
+    "color": "Gris",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Chrysler",
+    "modelo": "Voyager",
+    "anio": 2023,
+    "precio": 667000,
+    "color": "Azul",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Chrysler",
+    "modelo": "Sebring",
+    "anio": 2020,
+    "precio": 1180000,
+    "color": "Rojo",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Lincoln",
+    "modelo": "Navigator",
+    "anio": 2020,
+    "precio": 2891000,
+    "color": "Blanco",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Lincoln",
+    "modelo": "Corsair",
+    "anio": 2020,
+    "precio": 3016000,
+    "color": "Negro",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Lincoln",
+    "modelo": "Aviator",
+    "anio": 2024,
+    "precio": 1631000,
+    "color": "Gris",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Lincoln",
+    "modelo": "Nautilus",
+    "anio": 2023,
+    "precio": 1613000,
+    "color": "Azul",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Lincoln",
+    "modelo": "Continental",
+    "anio": 2020,
+    "precio": 2415000,
+    "color": "Rojo",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Jeep",
+    "modelo": "Wrangler",
+    "anio": 2021,
+    "precio": 1120000,
+    "color": "Blanco",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Jeep",
+    "modelo": "Grand Cherokee",
+    "anio": 2023,
+    "precio": 546000,
+    "color": "Negro",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Jeep",
+    "modelo": "Compass",
+    "anio": 2021,
+    "precio": 598000,
+    "color": "Gris",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Jeep",
+    "modelo": "Renegade",
+    "anio": 2021,
+    "precio": 1277000,
+    "color": "Azul",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Jeep",
+    "modelo": "Wagoneer",
+    "anio": 2024,
+    "precio": 629000,
+    "color": "Rojo",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Tesla",
+    "modelo": "Model 3",
+    "anio": 2024,
+    "precio": 3028000,
+    "color": "Blanco",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Tesla",
+    "modelo": "Model Y",
+    "anio": 2022,
+    "precio": 1721000,
+    "color": "Negro",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Tesla",
+    "modelo": "Model S",
+    "anio": 2023,
+    "precio": 1514000,
+    "color": "Gris",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Tesla",
+    "modelo": "Model X",
+    "anio": 2021,
+    "precio": 2605000,
+    "color": "Azul",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Tesla",
+    "modelo": "Cybertruck",
+    "anio": 2025,
+    "precio": 3016000,
+    "color": "Rojo",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Rivian",
+    "modelo": "R1T",
+    "anio": 2022,
+    "precio": 3030000,
+    "color": "Blanco",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Rivian",
+    "modelo": "R1S",
+    "anio": 2022,
+    "precio": 1564000,
+    "color": "Negro",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Rivian",
+    "modelo": "R2",
+    "anio": 2023,
+    "precio": 1744000,
+    "color": "Gris",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Rivian",
+    "modelo": "R3",
+    "anio": 2021,
+    "precio": 2503000,
+    "color": "Azul",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Rivian",
+    "modelo": "Commercial Van",
+    "anio": 2025,
+    "precio": 3069000,
+    "color": "Rojo",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Lucid",
+    "modelo": "Air",
+    "anio": 2022,
+    "precio": 3084000,
+    "color": "Blanco",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Lucid",
+    "modelo": "Gravity",
+    "anio": 2024,
+    "precio": 1631000,
+    "color": "Negro",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Lucid",
+    "modelo": "Pure",
+    "anio": 2024,
+    "precio": 3193000,
+    "color": "Gris",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Lucid",
+    "modelo": "Touring",
+    "anio": 2025,
+    "precio": 1688000,
+    "color": "Azul",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Lucid",
+    "modelo": "Sapphire",
+    "anio": 2025,
+    "precio": 3387000,
+    "color": "Rojo",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Faraday Future",
+    "modelo": "FF 91",
+    "anio": 2023,
+    "precio": 21169000,
+    "color": "Blanco",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Faraday Future",
+    "modelo": "FF 81",
+    "anio": 2021,
+    "precio": 13576000,
+    "color": "Negro",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Faraday Future",
+    "modelo": "FF 71",
+    "anio": 2024,
+    "precio": 14291000,
+    "color": "Gris",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Faraday Future",
+    "modelo": "FF Zero 1",
+    "anio": 2024,
+    "precio": 20588000,
+    "color": "Azul",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Faraday Future",
+    "modelo": "FF Sonic",
+    "anio": 2022,
+    "precio": 10058000,
+    "color": "Rojo",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Hennessey",
+    "modelo": "Venom F5",
+    "anio": 2024,
+    "precio": 21563000,
+    "color": "Blanco",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Hennessey",
+    "modelo": "Exorcist Camaro",
+    "anio": 2022,
+    "precio": 10269000,
+    "color": "Negro",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Hennessey",
+    "modelo": "Mammoth 1000 RAM",
+    "anio": 2020,
+    "precio": 24179000,
+    "color": "Gris",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Hennessey",
+    "modelo": "VelociRaptor Bronco",
+    "anio": 2024,
+    "precio": 24927000,
+    "color": "Azul",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Hennessey",
+    "modelo": "Venom F5 Roadster",
+    "anio": 2021,
+    "precio": 13622000,
+    "color": "Rojo",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Saleen",
+    "modelo": "S1",
+    "anio": 2021,
+    "precio": 15760000,
+    "color": "Blanco",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Saleen",
+    "modelo": "302 Mustang",
+    "anio": 2020,
+    "precio": 6037000,
+    "color": "Negro",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Saleen",
+    "modelo": "Sportruck XR",
+    "anio": 2020,
+    "precio": 10368000,
+    "color": "Gris",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Saleen",
+    "modelo": "GTX",
+    "anio": 2023,
+    "precio": 9155000,
+    "color": "Azul",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Saleen",
+    "modelo": "SA-40",
+    "anio": 2020,
+    "precio": 24069000,
+    "color": "Rojo",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Panoz",
+    "modelo": "Esperante",
+    "anio": 2024,
+    "precio": 14338000,
+    "color": "Blanco",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Panoz",
+    "modelo": "Avezzano",
+    "anio": 2022,
+    "precio": 19598000,
+    "color": "Negro",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Panoz",
+    "modelo": "Roadster",
+    "anio": 2021,
+    "precio": 9637000,
+    "color": "Gris",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Panoz",
+    "modelo": "AIV GT",
+    "anio": 2023,
+    "precio": 12435000,
+    "color": "Azul",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Panoz",
+    "modelo": "Abruzzi",
+    "anio": 2022,
+    "precio": 11785000,
+    "color": "Rojo",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Fisker (EE.UU.)",
+    "modelo": "Ocean",
+    "anio": 2021,
+    "precio": 1186000,
+    "color": "Blanco",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Fisker (EE.UU.)",
+    "modelo": "Alaska",
+    "anio": 2025,
+    "precio": 1406000,
+    "color": "Negro",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Fisker (EE.UU.)",
+    "modelo": "PEAR",
+    "anio": 2023,
+    "precio": 461000,
+    "color": "Gris",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Fisker (EE.UU.)",
+    "modelo": "Ronin",
+    "anio": 2022,
+    "precio": 677000,
+    "color": "Azul",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Fisker (EE.UU.)",
+    "modelo": "Force E",
+    "anio": 2021,
+    "precio": 1227000,
+    "color": "Rojo",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Bollinger",
+    "modelo": "B1",
+    "anio": 2022,
+    "precio": 1412000,
+    "color": "Blanco",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Bollinger",
+    "modelo": "B2",
+    "anio": 2021,
+    "precio": 1334000,
+    "color": "Negro",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Bollinger",
+    "modelo": "B4 Chassis Cab",
+    "anio": 2022,
+    "precio": 458000,
+    "color": "Gris",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Bollinger",
+    "modelo": "Deliver-E",
+    "anio": 2025,
+    "precio": 745000,
+    "color": "Azul",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Bollinger",
+    "modelo": "B4 Flatbed",
+    "anio": 2022,
+    "precio": 826000,
+    "color": "Rojo",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Canoo",
+    "modelo": "Lifestyle Van",
+    "anio": 2020,
+    "precio": 1226000,
+    "color": "Blanco",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Canoo",
+    "modelo": "Pickup Truck",
+    "anio": 2023,
+    "precio": 1350000,
+    "color": "Negro",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Canoo",
+    "modelo": "Delivery Van",
+    "anio": 2022,
+    "precio": 1292000,
+    "color": "Gris",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Canoo",
+    "modelo": "MPDV 2",
+    "anio": 2024,
+    "precio": 1325000,
+    "color": "Azul",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Canoo",
+    "modelo": "MPDV 3",
+    "anio": 2025,
+    "precio": 1436000,
+    "color": "Rojo",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Karma Automotive",
+    "modelo": "Revero GT",
+    "anio": 2025,
+    "precio": 3209000,
+    "color": "Blanco",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Karma Automotive",
+    "modelo": "GS-6",
+    "anio": 2024,
+    "precio": 3597000,
+    "color": "Negro",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Karma Automotive",
+    "modelo": "GSe-6",
+    "anio": 2025,
+    "precio": 3812000,
+    "color": "Gris",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Karma Automotive",
+    "modelo": "Kaveya",
+    "anio": 2024,
+    "precio": 1986000,
+    "color": "Azul",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Karma Automotive",
+    "modelo": "E-Flex Van",
+    "anio": 2020,
+    "precio": 3075000,
+    "color": "Rojo",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Rezvani Motors",
+    "modelo": "Tank",
+    "anio": 2020,
+    "precio": 8644000,
+    "color": "Blanco",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Rezvani Motors",
+    "modelo": "Beast",
+    "anio": 2020,
+    "precio": 14706000,
+    "color": "Negro",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Rezvani Motors",
+    "modelo": "Vengeance",
+    "anio": 2020,
+    "precio": 21292000,
+    "color": "Gris",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Rezvani Motors",
+    "modelo": "Hercules 6x6",
+    "anio": 2024,
+    "precio": 22885000,
+    "color": "Azul",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Rezvani Motors",
+    "modelo": "Beast Alpha",
+    "anio": 2021,
+    "precio": 20397000,
+    "color": "Rojo",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Drako Motors",
+    "modelo": "GTE",
+    "anio": 2023,
+    "precio": 13203000,
+    "color": "Blanco",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Drako Motors",
+    "modelo": "Dragon",
+    "anio": 2020,
+    "precio": 10976000,
+    "color": "Negro",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Drako Motors",
+    "modelo": "DriveOS Platform",
+    "anio": 2023,
+    "precio": 21140000,
+    "color": "Gris",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Drako Motors",
+    "modelo": "Supercar Concept X",
+    "anio": 2022,
+    "precio": 7159000,
+    "color": "Azul",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Drako Motors",
+    "modelo": "GTE Track Edition",
+    "anio": 2020,
+    "precio": 9220000,
+    "color": "Rojo",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Lordstown Motors",
+    "modelo": "Endurance",
+    "anio": 2022,
+    "precio": 1093000,
+    "color": "Blanco",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Lordstown Motors",
+    "modelo": "EV Pickup Prototype",
+    "anio": 2021,
+    "precio": 881000,
+    "color": "Negro",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Lordstown Motors",
+    "modelo": "Alpha Truck",
+    "anio": 2020,
+    "precio": 1315000,
+    "color": "Gris",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Lordstown Motors",
+    "modelo": "Beta Truck",
+    "anio": 2024,
+    "precio": 568000,
+    "color": "Azul",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Lordstown Motors",
+    "modelo": "Fleet EV",
+    "anio": 2025,
+    "precio": 1263000,
+    "color": "Rojo",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Aptera (EE.UU.)",
+    "modelo": "Launch Edition",
+    "anio": 2021,
+    "precio": 1229000,
+    "color": "Blanco",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Aptera (EE.UU.)",
+    "modelo": "Sol",
+    "anio": 2024,
+    "precio": 456000,
+    "color": "Negro",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Aptera (EE.UU.)",
+    "modelo": "Luna",
+    "anio": 2025,
+    "precio": 1383000,
+    "color": "Gris",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Aptera (EE.UU.)",
+    "modelo": "Noir",
+    "anio": 2022,
+    "precio": 823000,
+    "color": "Azul",
+    "origen": "americano",
+    "img": ""
+  },
+  {
+    "marca": "Aptera (EE.UU.)",
+    "modelo": "Paradigm Plus",
+    "anio": 2020,
+    "precio": 640000,
+    "color": "Rojo",
+    "origen": "americano",
+    "img": ""
+  }
+]
